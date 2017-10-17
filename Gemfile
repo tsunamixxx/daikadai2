@@ -59,3 +59,7 @@ end
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
+
+#image uploader
+gem 'carrierwave'
+gem 'mini_magick'
