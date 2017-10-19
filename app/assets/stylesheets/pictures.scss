@@ -1,3 +1,37 @@
 // Place all the styles related to the pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h2 {
+  text-align: center;
+  width: 100%;
+  background-color: #cce5ff;
+  color: #004085;
+  border-bottom: 1px solid #b8daff;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.actions .btn {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.login-list {
+  text-align: center;
+}
+
+#user_avatar {
+  margin-top: 20px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
