@@ -5,7 +5,7 @@
 <%= form_for(@picture) do |f| %>
   <% if @picture.errors.any? %>
     <div>
-      <h2><%= @picture.errors.count %>件のエラーがあります。</h2>
+      <h3 style="text-align:center; margin-bottom:20px"><%= @picture.errors.count %>件のエラーがあります。</h3>
       <ul>
         <% @picture.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
